@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-if st.checkbox('Show Uber pickups in NYC'):
+if st.sidebar.checkbox('Show Uber pickups in NYC'):
     st.title('Uber pickups in NYC')
 
     DATE_COLUMN = 'date/time'
